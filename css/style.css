@@ -173,7 +173,7 @@ body{
     text-shadow: 0 0 8px rgba(0,0,0,0.4);
 }
 
-#section4 #resultado{
+#section4 #userCodeResult{
     padding: 30px;
     background-color: whitesmoke;
     min-width:300px;
