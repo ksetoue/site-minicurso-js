@@ -94,6 +94,20 @@ body{
 	max-width: 15vw;
 }
 
+/* SEÇÃO 1 RESPONSIVIDADE */
+
+@media (max-width:920px){
+    #section1 .image, #section1 .title{
+        display: block;
+        clear: both;
+        width: initial;
+    }
+
+    #section1 .title{
+        padding-left:0;
+    }   
+}
+
 /* SEÇÃO 2 */
 
 #section2{
