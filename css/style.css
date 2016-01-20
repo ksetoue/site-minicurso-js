@@ -186,6 +186,11 @@ body{
 #section4 #resultImage{
     height: 150px;
     position: absolute;
-    margin-left: 100px;
+    margin-left: 11vw;
     left: 0;
+}
+
+/* SEÇÃO 5 */
+#section5 img{
+    width: 100px;
 }

@@ -1,4 +1,8 @@
 // BIBLIOTECA
+
+var resetCat = function(){
+    document.querySelector("#resultImage").setAttribute("style", 'left: 0px');
+}
 var executeUserCode = function(){
     var idBase = this.getAttribute("id").split("Submit")[0];
     var codigo = $("#"+idBase).val();
@@ -20,7 +24,9 @@ $(document).ready(function(){
         '   {\n'+
         '       left: "200px"\n'+		
         '   },\n'+
-        '   1000\n'+
+        '   1000,\n'+
+        '   "linear",\n'+
+        '   resetCat\n'+
         ');'         
     );             
 })
