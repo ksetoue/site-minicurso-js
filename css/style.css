@@ -190,7 +190,29 @@ body{
     left: 0;
 }
 
+
 /* SEÇÃO 5 */
-#section5 img{
+#section5{
+    background-color: #12A89E;
+    min-height: 100vh;
+}
+
+#section5 h1,p{
+   margin-bottom: 10px;
+}
+
+
+
+/*SEÇÃO 6*/
+#section6 img{
     width: 100px;
+}
+#section6 .textFooter{
+    display: inline-block;
+    clear: none;
+    width: initial;
+}
+#section6 h2,#section6 h3{
+    color: #12A89E;
+    margin-left: 1vw;
 }
