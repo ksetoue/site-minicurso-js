@@ -12,12 +12,25 @@ body{
 	background-color:  royalblue;
 }
 h1{
-	font-family: monospace;
+	font-family: Arial, Helvetica;
 	color: whitesmoke;
 }
 h2{
 	font-family: monospace;
-	color: papayawhip;
+	color: whitesmoke;
+	
+}
+h3{
+	font-family: Arial, Helvetica;
+	color: whitesmoke;
 	font-size: 15px;
 }
-
+.content{
+	padding-top: 10%;
+}
+.title{
+	width: 30%;
+}
+.image{
+	width: 30%;
+}
