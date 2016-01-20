@@ -14,5 +14,13 @@ var executeUserCode = function(){
 
 // INICIALIZAÇÃO
 $(document).ready(function(){
-    $("#userCodeSubmit").click(executeUserCode);    
+    $("#userCodeSubmit").click(executeUserCode);
+    $("#userCode").val(
+        '$("#resultImage").animate(\n'+
+        '   {\n'+
+        '       left: "200px"\n'+		
+        '   },\n'+
+        '   1000\n'+
+        ');'         
+    );             
 })
