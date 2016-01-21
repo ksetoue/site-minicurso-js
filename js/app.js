@@ -22,7 +22,7 @@ $(document).ready(function(){
     $("#userCode").val(
         '$("#resultImage").animate(\n'+
         '   {\n'+
-        '       left: "200px"\n'+		
+        '       left: "700px"\n'+		
         '   },\n'+
         '   1000,\n'+
         '   "linear",\n'+

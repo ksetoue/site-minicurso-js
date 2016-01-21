@@ -189,6 +189,9 @@ body{
     margin-left: 11vw;
     left: 0;
 }
+#section4 #whiskas{    
+    padding-left: 700px;
+}
 
 
 /* SEÇÃO 5 */
@@ -199,6 +202,10 @@ body{
 
 #section5 h1,p{
    margin-bottom: 10px;
+}
+
+#section5 p{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
