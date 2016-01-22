@@ -19,7 +19,7 @@
 //     $("#userCode").val(
 //         '$("#resultImage").animate(\n'+
 //         '   {\n'+
-//         '       left: "700px"\n'+		
+//         '       left: "600px"\n'+		
 //         '   },\n'+
 //         '   1000\n'+
 //         ');'         
@@ -70,7 +70,7 @@ $(document).ready(function(){
     $("#userCode").val(
         '$("#resultImage").animate(\n'+
         '   {\n'+
-        '       left: "700px"\n'+		
+        '       left: "600px"\n'+		
         '   },\n'+
         '   1000,\n'+
         '   "linear",\n'+
