@@ -206,6 +206,12 @@ body{
 #section5 p{
     font-family: Arial, Helvetica, sans-serif;
 }
+#section5 .formLabel{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+
 
 /*SEÇÃO 6*/
 #section6 img{
@@ -219,4 +225,25 @@ body{
 #section6 h2,#section6 h3{
     color: #12A89E;
     margin-left: 1vw;
+}
+
+/*SEÇÃO 7*/
+#section7{
+    background-color: #333;
+    min-height: 100vh;
+}
+
+#section7 h2{
+    color: #fff;
+    text-shadow: 0 0 8px rgba(0,0,0,0.4);
+}
+
+#section7 #userEmailResult{
+    padding: 30px;
+    background-color: whitesmoke;
+    min-width:300px;
+    width: calc(100% - 60px); /* MENOS DUAS VEZES O PADDING PARA FICAR DO TAMANHO CERTO */
+    height: 400px;
+    box-shadow: 0 0 3px rgba( 0, 0, 0, 0.4 );
+    margin-bottom: 20px;
 }

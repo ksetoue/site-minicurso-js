@@ -60,15 +60,24 @@
                                 <div class="formContent">                                        
                                         <form>
                                            <p>
-                                                <label for="idOfField">campo1</label>
-                                                <input type="text" id="idOfField" name="campo1"/>
+                                                <label class="formLabel" for="idEmail">Email: </label>
+                                                <input class="formItem" type="email" id="idEmail" name="campoEmail" placeholder="Digite seu e-mail"/>
                                            </p>
                                            <p>
-                                                <label for="idOfField">campo2</label>
-                                                <input type="text" id="idOfField" name="campo2"/>       
-                                           </p>
-                                        </form> 
+                                                <label class="formLabel" for="idName">Nome: </label>
+                                                <input class="formItem" type="text" id="idName" name="nome"/>       
+                                           </p>                                           
+                                        </form>
+                                        <button id="emailSubmit">Mostrar informações</button> 
                                 </div>
+                        </div>
+                </div>
+                <div id="section7" class="section">
+                        <div class="content">
+                                <div class="title">
+                                        <h2>Resultado</h2>
+                                </div>  
+                                <p id="userEmailResult"></p>
                         </div>
                 </div>
                 <div id="section6" class="section">
