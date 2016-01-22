@@ -128,9 +128,9 @@ body{
 /* SEÇÃO 3 */
 
 #section3{
-    background-color: #C15757;
-    border-top: 10px solid #A04C4C;
-    border-bottom: 20px solid #A04C4C;
+    background-color: #12A89E;
+    border-top: 10px solid #398882;
+    border-bottom: 20px solid #1D948B;
 }
 
 #section3 h2{
@@ -197,6 +197,8 @@ body{
 #section5{
     background-color: #12A89E;
     min-height: 100vh;
+    border-top: 10px solid #398882;
+    border-bottom: 20px solid #1D948B;
 }
 
 #section5 h1,p{
