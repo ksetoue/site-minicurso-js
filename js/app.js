@@ -19,7 +19,7 @@
 //     $("#userCode").val(
 //         '$("#resultImage").animate(\n'+
 //         '   {\n'+
-//         '       left: "550px"\n'+		
+//         '       left: "700px"\n'+		
 //         '   },\n'+
 //         '   1000\n'+
 //         ');'         
